@@ -1,2 +1,2 @@
-# css-reset
-Stylesheet reset.
+# CSS Reset
+Reset browser styles.
