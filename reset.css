@@ -1,6 +1,6 @@
 /*
     CSS Reset v0.0.0
-    Copyright (c) 2019 Jason Niebauer
+    Copyright (c) 2020 Jason Niebauer
     GitHub: https://github.com/JasonNiebauer/CSS-Reset
     License: http://www.opensource.org/licenses/mit-license.php
 */
@@ -36,20 +36,12 @@ h4, h5, h6 {
     margin-bottom: var(--space-2);
 }
 
-h1, .h1 { font-size: var(--h1); }
-h2, .h2 { font-size: var(--h2); }
-h3, .h3 { font-size: var(--h3); }
-h4, .h4 { font-size: var(--h4); }
-h5, .h5 { font-size: var(--h5); }
-h6, .h6 { font-size: var(--h6); }
-
 .h1, .h2, .h3,
 .h4, .h5, .h6 {
     line-height: 1.25;
 }
 
 p, dl, ol, ul, pre, blockquote {
-    font-size: var(--p);
     margin-top: var(--space-2);
     margin-bottom: var(--space-2);
 }
@@ -211,12 +203,6 @@ textarea {
 }
 
 :root {
-    --h1: 2rem;
-    --h2: 1.5rem;
-    --h3: 1.25rem;
-    --h4: 1rem;
-    --h5: .875rem;
-    --h6: .85rem;
     --legend: 1.25rem;
     --label: 0.875rem;
     --field: 1rem;
@@ -228,13 +214,6 @@ textarea {
 
 @media (min-width: 52em) {
     :root {
-        --h1: 2.625rem;
-        --h2: 2rem;
-        --h3: 1.5rem;
-        --h4: 1.1875rem;
-        --h5: 1rem;
-        --h6: 0.9375rem;
-        --p: 1.125rem;
         --legend: 1.5rem;;
         --label: 0.9375rem;
     }
