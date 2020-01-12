@@ -5,7 +5,7 @@ Reset browser styles.
 Include the reset stylesheet in the `<head>` section of your HTML document.
 
 Example:
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
